@@ -1,11 +1,9 @@
 /* eslint-disable react/button-has-type */
 /* eslint-disable no-console */
 import React, { useState } from 'react';
-import ReactDOM from 'react-dom';
+import '../index.css';
 
-import './index.css';
-
-function App() {
+function Calculator() {
   /* eslint no-eval: 0 */
 
   const [input, setInput] = useState('');
@@ -87,7 +85,4 @@ function App() {
   );
 }
 
-const rootElement = document.getElementById('root');
-ReactDOM.render(<App />, rootElement);
-
-export default App;
+export default Calculator;
