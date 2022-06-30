@@ -1,7 +1,7 @@
 /* eslint-disable import/extensions */
 import React from 'react';
 import './App.css';
-import { Calculator } from './components/Calculator.js';
+import { Calculator } from './components/Calculator';
 
 export class App extends React.PureComponent {
   render() {
