@@ -1,7 +1,7 @@
-/* eslint-disable react/button-has-type */
+/* eslint-disable import/extensions */
 import React from 'react';
 import './App.css';
-import { Calculator } from './components/Calculator';
+import { Calculator } from './components/Calculator.js';
 
 export class App extends React.PureComponent {
   render() {
