@@ -33,8 +33,8 @@ Run: npm install (if you clone it to get all dependencies)
 
 ### Deployment
 
-Npm start
-Npm run build
+Npm start, to start the server.
+Npm run build, to build the app.
 
 
 

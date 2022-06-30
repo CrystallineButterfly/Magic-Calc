@@ -25,3 +25,77 @@ code {
     'Courier New',
     monospace;
 }
+
+/* Orignal styling below before change suggestion by a code reviewer */
+
+/* html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+button {
+  font-size: 2rem;
+  border: 1px solid #333;
+  cursor: pointer;
+}
+
+.modifiers button {
+  background-color: #ccc;
+}
+
+.operations button {
+  background-color: orange;
+  width: 100px;
+}
+
+/* All things Grid, Flexbox, Box Alignment */
+
+/* .wrapper,
+.subgrid {
+  display: grid;
+}
+
+.wrapper {
+  max-width: 420px;
+  min-height: 96vh;
+  margin: 0 auto;
+  grid-template-areas:
+    "total total total total"
+    "modif modif modif oper"
+    "digit digit digit oper"
+    "digit digit digit oper"
+    "digit digit digit oper"
+    "digit digit digit oper";
+  grid-auto-columns: 1fr;
+}
+
+.operations {
+  grid-area: oper;
+}
+
+.show-input {
+  grid-area: total;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.modifiers {
+  grid-area: modif;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+}
+
+.digits {
+  grid-area: digit;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.digits button {
+  flex: 1 0 26%;
+  background-color: #efefef;
+}  */
