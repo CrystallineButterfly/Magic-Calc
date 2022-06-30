@@ -1,4 +1,34 @@
-html,
+body {
+  margin: 0;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    'Roboto',
+    'Oxygen',
+    'Ubuntu',
+    'Cantarell',
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family:
+    source-code-pro,
+    Menlo,
+    Monaco,
+    Consolas,
+    'Courier New',
+    monospace;
+}
+
+/* Orignal styling below before change suggestion by a code reviewer */
+
+/* html,
 body {
   margin: 0;
   padding: 0;
@@ -21,7 +51,8 @@ button {
 }
 
 /* All things Grid, Flexbox, Box Alignment */
-.wrapper,
+
+/* .wrapper,
 .subgrid {
   display: grid;
 }
@@ -67,4 +98,4 @@ button {
 .digits button {
   flex: 1 0 26%;
   background-color: #efefef;
-}
+}  */
