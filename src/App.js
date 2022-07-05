@@ -9,10 +9,15 @@ export class App extends React.PureComponent {
     return (
       <div className="App">
         <h1>Math Magicians</h1>
-        <Calculator />
+        <nav>
+          <Link to="/"> Home</Link>
+          <Link to="/calculator">Calculator</Link>
+          <Link to="about"> Quote</Link>
+        </nav>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="about" element={<About />} />
+          <Route path="calculator" element={<Calculator />} />
         </Routes>
       </div>
     );
@@ -33,9 +38,6 @@ function Home() {
           Homage to IBM and CERN.
         </p>
       </main>
-      <nav>
-        <Link to="/about">Quote</Link>
-      </nav>
     </>
   );
 }
@@ -50,10 +52,23 @@ function About() {
           Roger Penrose
         </p>
       </main>
-      <nav>
-        <Link to="/">Home</Link>
-      </nav>
     </>
   );
 }
+
+// function MainPage() {
+//   return (
+//     <>
+//       <main>
+//         <h2>Calculator</h2>
+//         <p>
+//           This is a calculator that can do basic math.
+//         </p>
+//       </main>
+//       <nav>
+//         <Link to="mainpage">MainPage</Link>
+//       </nav>
+//     </>
+//   );
+// }
 export default App;
