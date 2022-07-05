@@ -18,7 +18,7 @@
 }
 
 span {
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 26px;
 }
 
@@ -35,5 +35,5 @@ button {
 }
 
 .orange {
-  background-color: rgba(242, 123, 80, 0.819);
+  background-color: rgb(242, 123, 80);
 }
