@@ -30,12 +30,22 @@ function Home() {
       <main>
         <h2>Welcome to our page!</h2>
         <p>
-          This is about dancing with real numbers,
-          to speak in one language of math.
+          This is about dancing with real numbers, to speak in one language of
+          math.
         </p>
         <p>
-          Do you remember when computers were this?
-          Homage to IBM and CERN.
+          Do you remember when computers where this? Homage to IBM and CERN. In
+          1642, the first true “calculator” was invented: one that performed
+          calculations through a clockwork-type of mechanism. The Pascal
+          calculator, enabled by a French mathematician, Blaise
+          Pascal, was lauded for attempting arithmetic calculations previously
+          thought impossible. Even though the famous antikyera mechanism, is much better than this,
+          and is anceint! But unfortunately in modern times, they were difficult to produce
+          and very few were ever made, intially. The mechanical calculator was then enabled
+          by Thomas de Colmar in the mid-nineteenth century, and by subsequent
+          others, which were easier to produce, but extremely large and bulky, not at
+          all the pocket calculators we know today, or anywhere close...
+          to the complexity of the antikyera mechanism.
         </p>
       </main>
     </>
