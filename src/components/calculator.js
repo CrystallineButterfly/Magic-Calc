@@ -1,4 +1,5 @@
 import React from 'react';
+// import { Routes, Route, Link } from 'react-router-dom';
 import calculate from '../logic/calculate';
 
 export class Calculator extends React.PureComponent {

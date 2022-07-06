@@ -1,24 +1,45 @@
 .App {
-  text-align: center;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.navigate {
+  display: flex;
+  flex-direction: row;
+  margin-right: 25px;
+  justify-content: flex-end;
+}
+
+.navigate-list {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  border-left: black;
+  gap: 4px;
+}
+
+.list {
+  border-left: 3px solid #000 !important;
+  border-color: rgb(17, 12, 12) !important;
 }
 
 .Calculator {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  width: 100%;
+  margin-right: 20px;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
 .display {
   background-color: gray;
-  align-self: center;
   height: 44px;
   font-size: 36px;
   width: 400px;
 }
 
 span {
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 26px;
 }
 
@@ -35,5 +56,5 @@ button {
 }
 
 .orange {
-  background-color: rgba(242, 123, 80, 0.819);
+  background-color: rgb(242, 123, 80);
 }
